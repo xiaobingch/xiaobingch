@@ -1,0 +1,125 @@
+﻿/*************
+Media Queries
+**************/
+
+/* for 800px or less */
+@media screen and (max-width: 800px) {
+	#wrapper {
+		margin: 0 auto 0px;
+	}
+
+	#canvass {
+		padding: 0;
+		min-width: 100%;
+	}
+
+	#top {
+		position: inherit;
+		top: inherit;
+		left: inherit;
+		width: auto;
+	}
+
+	#logo {
+		margin: 25px 0 10px 0;
+		padding: 2%;
+	}
+
+	#pagenav {
+		display: none;
+	}
+
+	#mobile-nav {
+		display: block;
+	}
+
+	#content-area,
+	#content-area.fullwidth {
+		margin: 0;
+		padding: 0 2%;
+	}
+
+	.home #content-area,
+	.page-template-page-portfolio-php #content-area {
+		margin: 0;
+	}
+
+	#content-area .content {
+		width: auto;
+		float: none;
+		margin: 0 0 20px 0;
+	}
+
+	#content-area .sidebar {
+		float: none;
+		width: auto;
+		margin-left: 0;
+		margin-top: 0;
+		position: static;
+	}
+
+	#content-area .content img {
+		width: 100%;
+	}
+
+	#gallery-start-mobile img {
+		display: block;
+		margin: 10px auto;
+	}
+
+	#gallery-start-mobile .caption {
+		vertical-align: top;
+		text-align: center;
+		margin: 10px 0 30px 0;
+	}
+
+	#footerwrap {
+		height: 70px;
+		position: relative;
+	}
+
+	#copy,
+		#socials {
+		float: none;
+		text-align: center;
+	}
+
+	#socialnav {
+		float: none;
+	}
+
+	#socialnav {
+		width: auto;
+	}
+
+	#socials ul li {
+		float: none;
+		display: inline-block;
+		margin: 0 2px;
+	}
+
+	.responsive {
+		display: block;
+	}
+
+	.responsive textarea {
+		width: 96%;
+	}
+
+	.non-responsive {
+		display: none;
+	}
+}
+
+/* WooCommerce for 320px or less */
+@media screen and (max-width: 320px) {
+	
+	.product-price {
+		display: none;
+	}
+	
+	.product-remove {
+		display: none;
+	}
+	
+}
